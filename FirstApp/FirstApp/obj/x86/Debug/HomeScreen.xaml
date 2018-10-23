@@ -1,0 +1,18 @@
+﻿<Page
+    x:Class="FirstApp.HomeScreen"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:FirstApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Button x:ConnectionId='2' x:Name="BalanceButton" Content="Button" HorizontalAlignment="Center" Margin="0,10,0,0" VerticalAlignment="Top" Height="163" Width="851"                            />
+        <Button Content="Button" HorizontalAlignment="Center" VerticalAlignment="Center" Height="163" Width="851"/>
+        <Button Content="Button" HorizontalAlignment="Center" Margin="0,827,0,0" VerticalAlignment="Top" Height="163" Width="851"/>
+        <TextBlock x:ConnectionId='3' x:Name="BalanceTextBlock" HorizontalAlignment="Left" Height="116" Margin="606,178,0,0" Text="TextBlock" TextWrapping="Wrap" VerticalAlignment="Top" Width="309"/>
+    </Grid>
+</Page>
+
